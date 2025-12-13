@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЛР3, Завдання 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 35%;
+            background-color: #90ee90;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content {
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            height: 50px;
+            background-color: #87ceeb;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            height: 250px;
+            background-color: #ffff99;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .footer-wrapper {
+            display: flex;
+            height: 100px;
+        }
+
+        .footer-text {
+            width: 70%;
+            background-color: #f5deb3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-img {
+            width: 30%;
+            background-color: #ee82ee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">IMG</div>
+    <div class="content">
+        <div class="header">TEXT</div>
+        <div class="main">TEXT</div>
+        <div class="footer-wrapper">
+            <div class="footer-text">TEXT</div>
+            <div class="footer-img">IMG</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
