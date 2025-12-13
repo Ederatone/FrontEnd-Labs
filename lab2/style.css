@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+td {
+    border: 2px solid #333;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row-1 {
+    background-color: #108f8f;
+    color: white;
+    transition: 0.3s;
+}
+
+.row-2 {
+    background-color: #f5f510;
+    color: black;
+    transition: 0.3s;
+}
+
+table:hover .row-1 {
+    background-color: #f5f510;
+    color: black;
+}
+
+table:hover .row-2 {
+    background-color: #108f8f;
+    color: white;
+}
+
+.drawings-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.drawing-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #dbe4f0;
+}
+
+.base {
+    width: 120px;
+    height: 120px;
+    background-color: #999;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.hole {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    z-index: 3;
+}
+
+.tooth {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.gear-position .p1 { top: 25px; left: 82px; }
+.gear-position .p2 { top: 139px; left: 82px; }
+.gear-position .p3 { top: 82px; left: 25px; }
+.gear-position .p4 { top: 82px; left: 139px; }
+.gear-position .p5 { top: 42px; left: 42px; }
+.gear-position .p6 { top: 42px; left: 122px; }
+.gear-position .p7 { top: 122px; left: 42px; }
+.gear-position .p8 { top: 122px; left: 122px; }
+
+.gear-transform .tooth {
+    top: 82px;
+    left: 82px;
+    transform-origin: center;
+}
+
+.gear-transform .t1 { transform: rotate(0deg) translate(0, -57px); }
+.gear-transform .t2 { transform: rotate(45deg) translate(0, -57px); }
+.gear-transform .t3 { transform: rotate(90deg) translate(0, -57px); }
+.gear-transform .t4 { transform: rotate(135deg) translate(0, -57px); }
+.gear-transform .t5 { transform: rotate(180deg) translate(0, -57px); }
+.gear-transform .t6 { transform: rotate(225deg) translate(0, -57px); }
+.gear-transform .t7 { transform: rotate(270deg) translate(0, -57px); }
+.gear-transform .t8 { transform: rotate(315deg) translate(0, -57px); }
