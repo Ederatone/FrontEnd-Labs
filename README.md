@@ -1,4 +1,4 @@
 # 📂 Front End Labs
 
-### [🚀 ВІДКРИТИ ГОЛОВНЕ МЕНЮ](https://github.com/Ederatone/FrontEnd-Labs)
+### [🚀 ВІДКРИТИ ГОЛОВНЕ МЕНЮ](https://ederatone.github.io/FrontEnd-Labs/)
 
