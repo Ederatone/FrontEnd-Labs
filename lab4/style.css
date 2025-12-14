@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.active-style-1 {
+    background-color: #0000FF;
+    color: #FFFFFF;
+}
+
+.active-style-2 {
+    background-color: #008000;
+    color: #FFFFFF;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
