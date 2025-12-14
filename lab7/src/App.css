@@ -1,0 +1,45 @@
+.App {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.task-section {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.interactive-element {
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.goods-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.goods-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.goods-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
