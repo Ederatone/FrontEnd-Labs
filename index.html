@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Labs</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #e0e0e0;
+        }
+
+        .container {
+            background: rgba(30, 30, 40, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            max-width: 700px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        p {
+            color: #aaa;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .lab-link {
+            display: block;
+            background: #2a2a35;
+            border: 1px solid #3a3a45;
+            color: #ccc;
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .lab-link:hover {
+            transform: translateY(-5px);
+            background: #3a3a45;
+            color: #fff;
+            border-color: #764ba2;
+            box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Front End Labs</h1>
+
+    <div class="links-grid">
+        <a href="lab1/index.html" class="lab-link">Лабораторна №1</a>
+        <a href="lab2/index.html" class="lab-link">Лабораторна №2</a>
+        <a href="lab3/index.html" class="lab-link">Лабораторна №3</a>
+        <a href="lab4/index.html" class="lab-link">Лабораторна №4</a>
+        <a href="lab5/index.html" class="lab-link">Лабораторна №5</a>
+        <a href="lab6/index.html" class="lab-link">Лабораторна №6</a>
+        <a href="lab7/build/index.html" class="lab-link">Лабораторна №7</a>
+        <a href="lab8/index.html" class="lab-link">Лабораторна №8</a>
+    </div>
+
+</div>
+
+</body>
+</html>
